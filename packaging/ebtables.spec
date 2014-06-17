@@ -5,7 +5,7 @@ Release:        4
 License:        GPL-2.0+
 Group:          Security/Network
 URL:            http://ebtables.sf.net/
-Source:         http://downloads.sf.net/ebtables/%{name}-v%{version}-%{release}.tar.gz
+Source:         http://downloads.sf.net/ebtables/%{name}-v%{version}.tar.gz
 
 # Gbp-Ignore-Patches: 0 1
 Patch0:         no-root-install.patch
@@ -20,7 +20,7 @@ The ebtables tool can be used together with the other Linux filtering tools,
 like iptables. There are no incompatibility issues.
 
 %prep
-%setup -q -n %{name}-v%{version}-%{release}
+%setup -q -n %{name}-v%{version}
 
 # Gbp-Patch-Macros
 %patch0 -p1
